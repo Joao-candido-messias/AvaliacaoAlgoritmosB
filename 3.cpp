@@ -26,6 +26,7 @@ int lerNomes(string nomes[], const string& arquivoOrigem) {
     return count;
 }
 
+//Metodo que ecibe um vetor qualquer de strings dado o seu tamanho.
 void exibe(string *v, int n) {
     cout << "Nomes:" << endl;
     for (int i = 0; i < n; i++) {
