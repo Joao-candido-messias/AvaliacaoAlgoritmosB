@@ -5,7 +5,7 @@
 using namespace std;
 
 //Metodo que popula um vetor de inteiros qualquer de maneira aleatoria, com numeros de 1 a 100, dado o seu tamanho.
-void populaIteiros(int *v, int n) {
+void populaInteiros(int *v, int n) {
     srand(time(NULL));
     for (int i = 0; i < n; i++) {
         v[i] = rand() % 100;
@@ -37,7 +37,7 @@ int main(){
     int numeros[TAM];
     int numerosPares[TAM];
 
-    populaIteiros(numeros, TAM);
+    populaInteiros(numeros, TAM);
 
     cout << "Vetor original:" << endl;
     exibe(numeros, TAM);
